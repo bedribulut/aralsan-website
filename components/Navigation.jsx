@@ -6,7 +6,7 @@ import Image from "next/image";
 import cx from "clsx";
 import { Menu, Transition, Disclosure } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
-import LogoImg from "../img/aralsan-logo.png";
+import LogoImg from "../images/aralsan-logo.png";
 
 
 

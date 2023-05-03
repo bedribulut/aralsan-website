@@ -3,7 +3,7 @@
 import { Typography } from "@material-tailwind/react";
 
 import Image from "next/image"; 
-import logo from "../img/aralsan-logo.png"
+import logo from "../images/aralsan-logo.png"
 
 export default function Footer() {
   return (
