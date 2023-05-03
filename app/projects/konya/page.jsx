@@ -2,14 +2,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import image1 from "./photos/k1.JPG"
-import image2 from "./photos/k2.JPG"
-import image3 from "./photos/k3.JPG"
-import image4 from "./photos/k4.JPG"
-import image5 from "./photos/k5.JPG"
-import image6 from "./photos/k6.JPG"
-import image7 from "./photos/k7.JPG"
-import image8 from "./photos/k8.JPG"
+import image1 from "./photos/k1.jpg"
+import image2 from "./photos/k2.jpg"
+import image3 from "./photos/k3.jpg"
+import image4 from "./photos/k4.jpg"
+import image5 from "./photos/k5.jpg"
+import image6 from "./photos/k6.jpg"
+import image7 from "./photos/k7.jpg"
+import image8 from "./photos/k8.jpg"
 
 const images = [
   {

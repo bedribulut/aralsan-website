@@ -2,10 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import image1 from "./photos/t1.JPG"
-import image2 from "./photos/t2.JPG"
-import image3 from "./photos/t3.JPG"
-import image4 from "./photos/t4.JPG"
+import image1 from "./photos/t1.jpg"
+import image3 from "./photos/t3.jpg"
+import image2 from "./photos/t2.jpg"
+import image4 from "./photos/t4.jpg"
 
 const images = [
   {
