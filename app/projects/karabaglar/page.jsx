@@ -18,7 +18,6 @@ import image13 from "./photos/k13.jpg"
 import image14 from "./photos/k14.jpg"
 import image15 from "./photos/k15.jpg"
 import image16 from "./photos/k16.jpg"
-import image17 from "./photos/k17.jpg"
 import image18 from "./photos/k18.jpg"
 import image19 from "./photos/k19.jpg"
 import image20 from "./photos/k20.jpg"
@@ -26,7 +25,6 @@ import image21 from "./photos/k21.jpg"
 import image22 from "./photos/k22.jpg"
 import image23 from "./photos/k23.jpg"
 import image24 from "./photos/k24.jpg"
-import image25 from "./photos/k25.jpg"
 import image26 from "./photos/k26.jpg"
 import image27 from "./photos/k27.jpg"
 import image28 from "./photos/k28.jpg"
@@ -83,9 +81,6 @@ const images = [
     path: image16
   },
   {
-    path: image17
-  },
-  {
     path: image18
   },
   {
@@ -105,9 +100,6 @@ const images = [
   },
   {
     path: image24
-  },
-  {
-    path: image25
   },
   {
     path: image26
