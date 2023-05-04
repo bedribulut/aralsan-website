@@ -38,7 +38,7 @@ export default function Contact() {
         </address>
         <div className='map mt-12'>
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24483.086379149467!2d32.79385585755591!3d39.910381783323245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d348baaa16a143%3A0x8cc06d1e219119b1!2sVia%20Twins!5e0!3m2!1sen!2str!4v1683041240974!5m2!1sen!2str"   width="500" height="350" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='m-auto rounded-xl'
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24483.086379149467!2d32.79385585755591!3d39.910381783323245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d348baaa16a143%3A0x8cc06d1e219119b1!2sVia%20Twins!5e0!3m2!1sen!2str!4v1683041240974!5m2!1sen!2str"   width="350" height="350" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='m-auto rounded-xl'
           />
         </div>
       </div>

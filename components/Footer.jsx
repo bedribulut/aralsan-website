@@ -63,9 +63,6 @@ export default function Footer() {
         &copy; 2023 Aralsan İnşaat ve Mühendislik A.Ş. <br/>
         Tüm Hakları Saklıdır.
       </Typography >
-      <Typography color="blue-gray" className="text-center font-normal">
-        designed and developed by <a href="https://github.com/bedribulut" target="_blank" className="text-blueBedri">bedribulut</a> 
-    </Typography>
     </footer>
   );
 }
