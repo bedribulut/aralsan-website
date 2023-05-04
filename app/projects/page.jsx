@@ -56,16 +56,32 @@ const ongoingProjects = [
     logo: tokiLogo,
     imagePath: '/projects/rize',
   },
+  {
+    name: 'Karabağlar (İzmir) Kentsel Dönüşüm Alanı Yol-İçmesuyu-Kanalizasyon-Yağmursuyu İnşaatı Yapım İşi',
+    projectDetail: <ul className="list-disc">
+      <li>56.000m2 BSK imalatı</li>
+      <li>120.000m3 toprak işleri</li>
+      <li>4.000m atıksu hattı</li>
+      <li>1.300m yağmursuyu hattı</li>
+      <li>5.200m içmesuyu hattı</li>
+      <li>2.000ton su deposu</li>
+    </ul>,
+    author: 'İLBANK',
+    year: '2022',
+    id: '4',
+    logo: tokiLogo,
+    imagePath: '/projects/karabaglar',
+  },
 ]
 
 function Projects() {
   return (
-    <div className="flex flex-col items-stretch px-3 justify-between mb-6 md:grid md:gap-4 md:grid-cols-3 md:grid-rows-3 md:px-0">
+    <div className="flex flex-col items-stretch px-3 justify-between mb-6 md:grid md:gap-4 md:grid-cols-2 md:grid-rows-2 md:px-6">
       {ongoingProjects.map((project) => (
         <div key={project.id} className="relative flex flex-col mt-6 items-center justify-between w-full h-screen bg-gradient-to-tr from-blueBedri to-white opacity-70 rounded-lg hover:bg-white overflow-auto">
-          <div className="text-black/70 px-6 py-3">
-            <h2 className=" text-xl text-center font-bold z-40 leading-relaxed">{project.name}</h2>
-            <div className="mt-10">{project.projectDetail}</div>
+          <div className="flex flex-col items-center text-black/70 px-6 py-3 mt-3">
+            <h2 className=" text-xl font-bold z-40 leading-relaxed">{project.name}</h2>
+            <div className="mt-10 text-xl">{project.projectDetail}</div>
           </div>
           
           <div className="flex flex-col items-center">

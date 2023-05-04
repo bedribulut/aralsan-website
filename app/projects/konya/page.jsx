@@ -41,7 +41,7 @@ function KonyaImageGallery() {
   return (
     <>
       <button className="mt-2 text-white rounded-xl block text-xl p-6 m-auto bg-blueBedri">
-        <Link href="/projects">&lt;--geri dön tülay</Link>
+        <Link href="/projects">&lt;--geri dön</Link>
       </button>
       <div className="flex items-center mx-auto p-3 space-y-6 justify-center flex-wrap">
         {images.map((image) => (
