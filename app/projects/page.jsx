@@ -13,12 +13,12 @@ const ongoingProjects = [
   {
     name: 'Trabzon İli Vakfıkebir İlçesi Millet Bahçesi ve Millet Bahçesine Ait Sosyal Donatılar İnşaatları ile Altyapı ve Çevre Düzenlemesi İşi',
     projectDetail: <ul className="list-disc">
-      <li>150m2 mescit binası</li>
-      <li>270m2 giriş kapıları</li>
-      <li>190m2 millet kıraathanesi</li>
-      <li>640m2 ekmek müzesi</li>
-      <li>130m2 su deposu</li>
-      <li>31.330m2 açık alan inşaatı</li>
+      <li>MESCİT BİNASI 150 m2</li>
+      <li>GİRİŞ KAPILARI 270 m2</li>
+      <li>MİLLET KIRAATHANESİ 190 m2 </li>
+      <li>EKMEK MÜZESİ 640 m2</li>
+      <li>SU DEPOSU 300 ton</li>
+      <li>AÇIK ALAN İNŞAATI 31.330 m2</li>
     </ul>,
     author: 'TOKİ',
     year: '2021',
@@ -29,11 +29,11 @@ const ongoingProjects = [
   {
     name: 'Konya İli Meram İlçesi Mahmuriye Mahallesi Millet Bahçesi ve Millet Bahçesine Ait Sosyal Donatılar İnşaatları İle Altyapı ve Çevre Düzenlemesi İşi',
     projectDetail: <ul className="list-disc">
-      <li>292m2 kütüphane binası</li>
-      <li>912m2 millet kıraathanesi</li>
-      <li>2.710m2 restaurant binası</li>
-      <li>151m2 seyir köşkü</li>
-      <li>13.226m3 açık alan inşaatı</li>
+      <li>KÜTÜPHANE BİNASI 292 m2</li>
+      <li>MİLLET KIRAATHANESİ 912 m2</li>
+      <li>RESTAURANT BİNASI 2.710 m2</li>
+      <li>SEYİR KÖŞKÜ 151 m2</li>
+      <li>AÇIK ALAN İNŞAATI 13.226 m2</li>
     </ul>,
     author: 'TOKİ',
     year: '2022',
@@ -44,11 +44,11 @@ const ongoingProjects = [
   {
     name: 'Rize İli, İyidere İlçesi Millet Bahçesi ve Millet Bahçesine Ait Sosyal Donatılar İnşaatları İle Altyapı Ve Çevre Düzenlemesi İşi',
     projectDetail: <ul className="list-disc">
-      <li>180 ton çelik yapı imalatı</li>
-      <li>260m2 kütüphane binası</li>
-      <li>885m2 millet kıraathanesi</li>
-      <li>90m2 satış birimleri binası</li>
-      <li>90m2 su deposu</li>
+      <li>ÇELİK YAPI İMALATI 180 TON</li>
+      <li>KÜTÜPHANE BİNASI 260 m2</li>
+      <li>MİLLET KIRAATHANESİ 885 m2</li>
+      <li>SATIŞ BİRİMLERİ BİNASI 90 m2</li>
+      <li>SU DEPOSU 150 ton</li>
     </ul>,
     author: 'TOKİ',
     year: '2023',
@@ -59,12 +59,12 @@ const ongoingProjects = [
   {
     name: 'Karabağlar (İzmir) Kentsel Dönüşüm Alanı Yol-İçmesuyu-Kanalizasyon-Yağmursuyu İnşaatı Yapım İşi',
     projectDetail: <ul className="list-disc">
-      <li>56.000m2 BSK imalatı</li>
-      <li>120.000m3 toprak işleri</li>
-      <li>4.000m atıksu hattı</li>
-      <li>1.300m yağmursuyu hattı</li>
-      <li>5.200m içmesuyu hattı</li>
-      <li>2.000ton su deposu</li>
+      <li>BSK İMALATI 56.000 m2</li>
+      <li>TOPRAK İŞLERİ 120.000 m3</li>
+      <li>ATIKSU HATTI İNŞAATI</li>
+      <li>YAĞMURSUYU HATTI İNŞAATI</li>
+      <li>İÇMESUYU HATTI İNŞAATI</li>
+      <li>SU DEPOSU 2.000 TON</li>
     </ul>,
     author: 'İLBANK',
     year: '2022',
@@ -81,7 +81,7 @@ function Projects() {
         <div key={project.id} className="relative flex flex-col mt-6 items-center justify-between w-full h-screen bg-gradient-to-tr from-blueBedri to-white opacity-70 rounded-lg hover:bg-white overflow-auto">
           <div className="flex flex-col items-center text-black/70 px-6 py-3 mt-3">
             <h2 className=" text-xl font-bold z-40 leading-relaxed">{project.name}</h2>
-            <div className="mt-10 text-xl">{project.projectDetail}</div>
+            <div className="mt-10 text-xl md:text-2xl">{project.projectDetail}</div>
           </div>
           
           <div className="flex flex-col items-center">
