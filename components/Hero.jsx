@@ -13,7 +13,7 @@ function Hero() {
                 daha iyi bir gelecek inşa etmek için durmaksızın çalışıyoruz.
             </h1>
             <p className="mt-6 text-lg leading-6 text-gray-600">
-                ARALSAN İnşaat ve Mühendislik A.Ş. olarak faaliyetlerimize 2015 yılında başladık. Bugün ülkemizin 7 bölgesinde, altyapıdan üstyapıya çeşitli projeleri, çok değerli çalışma arkadaşımızla birlikte hayata geçirmek için yorulmadan çalışıyoruz.
+                ARALSAN İnşaat ve Mühendislik A.Ş. olarak faaliyetlerimize 2015 yılında başladık. Bugün ülkemizin her bölgesinde, altyapıdan üstyapıya çeşitli projeleri, çok değerli çalışma arkadaşımızla birlikte hayata geçirmek için yorulmadan çalışıyoruz.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link

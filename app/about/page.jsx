@@ -53,13 +53,13 @@ export default function About() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p>
-              Yönetim Kurulu Başkanımız sayın Seval ARAL tarafından 2015 yılında başta kamu taahhüt projelerini gerçekleştirmek amacıyla kurulan ARALSAN İnşaat ve Mühendislik A.Ş. Türkiye çapında bir mühendislik ve inşaat firmasıdır. Merkezi Ankara’da bulunan şirketimiz, bugüne kadar Türkiye'nin 7 bölgesinde yüklendiği çok sayıdaki kamu taahhüt projelerini başarıyla gerçekleştirmiştir.
+              Yönetim Kurulu Başkanımız sayın Seval ARAL tarafından 2015 yılında başta kamu taahhüt projelerini gerçekleştirmek amacıyla kurulan ARALSAN İnşaat ve Mühendislik A.Ş. bir mühendislik ve inşaat firmasıdır. Merkezi Ankara’da bulunan şirketimiz, bugüne kadar Türkiye'nin her bölgesinde yüklendiği çok sayıdaki kamu taahhüt projelerini başarıyla gerçekleştirmiştir.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
                   <span>
-                    <strong className="font-semibold text-blueBedri">VİZYON</strong> Tüm projelerimizde sözümüzü tutar, işimizi iyi yapar ve itibarımızı sürekli yükseltiriz. Projelerimizi fark yaratacak bir biçimde gerçekleştirmeye gayret ederiz. ARALSAN İnşaat ve Mühendislik başladığı her projeyi bitirme azmi gösteren, açık, saydam, bilgi işleyerek karar veren, yenilikçi, estetik tutum sergileyen bir şirkettir. Faaliyet gösterdiği bölgelerin tarihine, geleneklerine, örf ve âdetlerine ve doğasına saygılıdır, duyarlıdır.
+                    <strong className="font-semibold text-blueBedri">VİZYON</strong> Tüm projelerimizde sözümüzü tutar, işimizi iyi yapar ve itibarımızı sürekli yükseltiriz. Projelerimizi fark yaratacak bir biçimde gerçekleştirmeye gayret ederiz. ARALSAN İnşaat ve Mühendislik başladığı her projeyi bitirme azmi gösteren, açık, saydam, bilgi işleyerek karar veren, yenilikçi, estetik tutum sergileyen bir şirkettir.
                   </span>
                 </li>
                 <li className="flex gap-x-3">

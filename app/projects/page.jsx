@@ -2,6 +2,8 @@
 
 import aralsanLogo from "../../images/aralsan-logo.png"
 import tokiLogo from "../../images/corporate-logo/logo-toki.jpg"
+import ilbankLogo from "../../images/corporate-logo/logo-ilbank.jpg"
+import antepLogo from "../../images/corporate-logo/logo-antep.png"
 
 
 import Image from "next/image"
@@ -69,8 +71,19 @@ const ongoingProjects = [
     author: 'İLBANK',
     year: '2022',
     id: '4',
-    logo: tokiLogo,
+    logo: ilbankLogo,
     imagePath: '/projects/karabaglar',
+  },
+  {
+    name: 'Perilikaya Spor Salonu ve Aşevi Yapım İşi',
+    projectDetail: <ul className="list-disc">
+      <li>1 Adet Spor Salonu ve Aşevi Yapımı</li>
+    </ul>,
+    author: 'Gaziantep B.B.',
+    year: '2022',
+    id: '4',
+    logo: antepLogo,
+    imagePath: '/projects/antep',
   },
 ]
 
